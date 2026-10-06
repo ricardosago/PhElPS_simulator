@@ -1,0 +1,19 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.25",
+   "Default View_TopLeft":"-74,-176",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace inst modelo_0 -pg 1 -lvl 3 -x 580 -y 90 -defaultsOSRD
+preplace inst generador_0 -pg 1 -lvl 2 -x 330 -y 110 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 110 -y 70 -defaultsOSRD
+preplace netloc generador_0_xn 1 2 1 N 100
+preplace netloc generador_0_baseline 1 2 1 N 120
+preplace netloc clk_wiz_0_clk_out1 1 1 2 200 30 460
+preplace netloc reset_0_1 1 0 3 20J 140 210 40 450
+levelinfo -pg 1 0 110 330 580 720
+pagesize -pg 1 -db -bbox -sgen -110 0 840 180
+"
+}
+

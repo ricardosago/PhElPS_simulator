@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Vivado generated files
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+*.jou
+*.log
+*.str
+*.wdb
+*.pb
+
+# Vitis generated directories
+**/export/
+**/resources/
+**/build/
+**/Debug/
+**/Release/
+**/.metadata/
+
+# CMake / Vitis compilation
+**/MakeFiles/
+**/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Compiled files
+*.o
+*.obj
+*.a
+*.elf
+*.bin
+*.map
+*.d
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
